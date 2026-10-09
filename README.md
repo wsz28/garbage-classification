@@ -15,12 +15,11 @@
 
 ```
 garbage-classification/
-├── 燕京理工人工智能专业23级第12小组/
-│   └── 03-项目源码/
-│       ├── PC端上位机(Python)/      PyQt5 上位机 + YOLOv8 检测（详见其 README）
-│       └── GD32固件(Keil)/          GD32 单片机固件（BSP/串口协议/舵机分拣）
-├── preview/                         结果预览图（检测示例、混淆矩阵、训练曲线）
-└── assets/                          项目资源
+├── src/
+│   ├── PC端上位机(Python)/      PyQt5 上位机 + YOLOv8 检测（详见其 README）
+│   └── GD32固件(Keil)/          GD32 单片机固件（BSP/串口协议/舵机分拣）
+├── preview/                     结果预览图（检测示例、混淆矩阵、训练曲线）
+└── assets/                      项目资源
 ```
 
 ## 核心模块
@@ -43,7 +42,7 @@ garbage-classification/
 ## 运行说明
 
 具体环境安装、运行、无硬件联调方法见源码内各 README：
-- PC 上位机：`PC端上位机(Python)/README.md`
-- 模型训练：`PC端上位机(Python)/train/README.md`
+- PC 上位机：`src/PC端上位机(Python)/README.md`
+- 模型训练：`src/PC端上位机(Python)/train/README.md`
 
 > 注：模型权重（`best.pt` / `yolov8*.pt`）、演示视频等大文件未上传，训练方法见 `train/README.md`。
