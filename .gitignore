@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 大文件（权重 / 视频 / 压缩包）
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.zip
+*.rar
+
+# 训练 / 运行产物
+runs/
+results/
+
+# Keil 编译产物
+Objects/
+Listings/
+*.uvguix.*
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store

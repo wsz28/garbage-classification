@@ -1,0 +1,10 @@
+# YOLOv8 训练配置 - 四类垃圾数据集
+# 路径为绝对路径或相对 datasets 目录, 按实际位置修改
+path: ./datasets/garbage   # 数据集根目录
+train: images/train        # 训练集图片
+val: images/val            # 验证集图片
+names:
+  0: recyclable            # 可回收物
+  1: kitchen               # 厨余垃圾
+  2: hazardous             # 有害垃圾
+  3: other                 # 其他垃圾
